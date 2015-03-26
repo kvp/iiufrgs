@@ -495,9 +495,9 @@
         \if@openright\cleardoublepage\else\clearpage\fi%
         \gdef\@englishkeywords{#2}%
         \iflanguage{english}{
-                \begin{otherlanguage}{brazilian}
-        }{
                 \begin{otherlanguage}{english}
+        }{
+                \begin{otherlanguage}{brazilian}
         }
         \begin{center}%
             \textbf{#1}%
